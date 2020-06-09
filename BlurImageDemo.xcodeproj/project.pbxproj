@@ -13,6 +13,7 @@
 		88FFC1FA248FA430003A21AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FFC1F8248FA430003A21AB /* Main.storyboard */; };
 		88FFC1FC248FA432003A21AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FFC1FB248FA432003A21AB /* Assets.xcassets */; };
 		88FFC1FF248FA432003A21AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FFC1FD248FA432003A21AB /* LaunchScreen.storyboard */; };
+		88FFC20A248FAE8D003A21AB /* processGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88FFC209248FAE8D003A21AB /* processGIF.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		88FFC1FB248FA432003A21AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FFC1FE248FA432003A21AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FFC200248FA432003A21AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FFC209248FAE8D003A21AB /* processGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = processGIF.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		88FFC1F1248FA430003A21AB /* BlurImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				88FFC208248FAE72003A21AB /* Docs */,
 				88FFC1F2248FA430003A21AB /* AppDelegate.swift */,
 				88FFC1F4248FA430003A21AB /* SceneDelegate.swift */,
 				88FFC1F6248FA430003A21AB /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				88FFC200248FA432003A21AB /* Info.plist */,
 			);
 			path = BlurImageDemo;
+			sourceTree = "<group>";
+		};
+		88FFC208248FAE72003A21AB /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				88FFC209248FAE8D003A21AB /* processGIF.gif */,
+			);
+			path = Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				88FFC1FF248FA432003A21AB /* LaunchScreen.storyboard in Resources */,
 				88FFC1FC248FA432003A21AB /* Assets.xcassets in Resources */,
 				88FFC1FA248FA430003A21AB /* Main.storyboard in Resources */,
+				88FFC20A248FAE8D003A21AB /* processGIF.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
